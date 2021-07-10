@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 
 
 //Connection to mongodb
-mongoose.connect( 'mongodb+srv://m001-student:m001-mongodb-basics@sandbox.7sjg7.mongodb.net/SportCentreDatabase',
+mongoose.connect( 'mongodb+srv://<username>:<password>@sandbox.7sjg7.mongodb.net/SportCentreDatabase',
              { useNewUrlParser: true },() =>
               console.log('Connected to Mongodb')
 );
